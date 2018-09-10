@@ -1,0 +1,45 @@
+﻿<Window x:Class="_02StackPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_02StackPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="268*"/>
+            <ColumnDefinition Width="129*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="143*"/>
+            <RowDefinition Height="67*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" 
+                    Grid.Row="1" Grid.Column="0"
+                    >
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" 
+                    Grid.Row="0" Grid.Column="1">
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+            <Button Content="Ez egy gomb" Padding="10" Margin="5"/>
+
+        </StackPanel>
+
+
+    </Grid>
+</Window>
